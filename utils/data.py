@@ -15,8 +15,8 @@ class SirstDataset(Data.Dataset):
         if sys.platform == 'win32':
             base_dir = 'C:/Users/Administrator/Desktop/sirst-master/sirst-master/'
             #base_dir = 'E:/ProgramCache/DATASETS/sirst/'
-        elif sys.platform == 'linux2':
-            base_dir = 'idip/Carleton/DATASETS/sirst/'
+        elif sys.platform == 'linux':
+            base_dir = '/home/jihong/IEEE_TIP_UIU-Net'
 
         if mode == 'train':
             txtfile = 'trainval.txt'#trainval-1
